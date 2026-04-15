@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex; flex-direction: column;
+    background-color: #744D4D;
+}
+
+main{
+    width: 100%;
+}
+
+header{
+    display: inline;
+    width: 100%;
+}
+
+h1{
+    color: #AEAEAA;
+}
+
+.logo{
+    height: 60px;
+    text-align: left;
+}
+.principal{
+    display: flex;
+    background-color: #41201B;
+}
+
+.borda{
+    width: 100%;
+}
+
+#fotos{
+
+}
