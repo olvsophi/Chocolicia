@@ -33,6 +33,7 @@ h1{
     display: inline;
     color: #AEAEAA;
     padding-top: 10px;
+    font-family: "Public Sans";
 }
 
 #links-header{
@@ -40,6 +41,7 @@ h1{
     justify-content: space-between;
     margin: auto;
     margin-left: 580px;
+    font-family: "Public Sans";
 }
 
 nav{
@@ -60,75 +62,113 @@ nav a{
 main h2{
     display: flex;
     justify-content: center;
-    margin-bottom: 20px;
     text-align: center;
+    font-family: "Public Sans";
+    color: #2C100C;
+    font-weight: 800;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    font-size: 32px;
 }
 
 #fotos{
     display: inline;
-    background-color: #41201B;
+    background-color: #260E0B;
 }
 
 .bombons-ilustrativos{
     display: flex;
     justify-content: center;
-    padding: 20px 0;
+    padding: 40px 0;
     gap: 30px;
 }
 
 #container-feedbacks{
     display: flex;
     flex-direction: column;
+    margin-top: 125px;
+    margin-bottom: 250px;
 }
 
 .titulo-feedbacks{
     display: block;
     align-items: center;
     text-align: center;
+    font-family: "Public Sans";
+    margin-bottom: 40px;
+}
+
+.titulo-feedbacks h2{
+    font-size: 40px;
+    font-weight: 800;
+    color: #41201B;
+}
+
+.titulo-feedbacks p{
+    margin-top: 10px;
+    color: #AEAEAE;
+    font-size: 16px;
 }
 
 .feedbacks{
     display: flex;
     justify-content: center;
     gap: 50px;
+    font-family: "Public Sans";
+    color: black;
 }
 
-.feedbacks p{
-    margin-top: 20px;
+
+.comentario{
+    margin-top: 45px;
+    font-weight: 500;
+}
+
+.feedbacks h3{
+    font-size: 10px;
+    font-weight: 600;
+    margin-top: 50px;
+}
+
+.data-feedback{
+    margin-top: 5px;
 }
 
 #comentario-1{
-    background-color: rgb(172, 159, 155);
-    border-radius: 30px; 
-    padding: 10px 15px;
-    padding-top: 30px;
-    padding-bottom: 80px;
+    background-color: #FFD7D7;
+    border-radius: 20px; 
+    padding: 0 16px;
+    padding-top: 55px;
+    padding-bottom: 70px;
     font-size: 10px;
     align-items: center;
     text-align: center;
-    width: 200px;
+    height: 325px;
+    width: 245px;
 }
 
 #comentario-2{
-    background-color: rgb(172, 159, 155);
-    border-radius: 30px; 
-    padding: 10px 15px;
-    padding-top: 30px;
+    background-color: #FFD7D7;
+    border-radius: 20px; 
+    padding: 0 16px;
+    padding-top: 55px;
     padding-bottom: 80px;
     font-size: 10px;
     align-items: center;
     text-align: center;
-    width: 200px;
+    height: 325px;
+    width: 245px;
 }
 
 #comentario-3{
-    background-color: rgb(172, 159, 155);
-    border-radius: 30px; 
-    padding: 10px 15px;
-    padding-top: 30px;
+    background-color: #FFD7D7;
+    border-radius: 20px; 
+    padding: 0 16px;
+    padding-top: 55px;
     padding-bottom: 80px;
     font-size: 10px;
     align-items: center;
     text-align: center;
-    width: 200px;
+    height: 325px;
+    width: 245px;
 }
