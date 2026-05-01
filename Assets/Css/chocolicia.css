@@ -87,7 +87,7 @@ main h2{
     display: flex;
     flex-direction: column;
     margin-top: 125px;
-    margin-bottom: 250px;
+    margin-bottom: 200px;
 }
 
 .titulo-feedbacks{
@@ -171,4 +171,24 @@ main h2{
     text-align: center;
     height: 325px;
     width: 245px;
+}
+
+footer{
+    background-color: #41201B;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    color: #AEAEAE;
+    font-family: "Public Sans";
+    font-size: 12px;
+}
+
+footer img{
+    margin-top: 20px;
+    width: 90px;
+}
+
+footer p{
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
