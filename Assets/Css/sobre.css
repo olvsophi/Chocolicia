@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #825D5D;
+}
+
+main h2{
+    margin: 0 auto;
+    text-align: center;
+    font-family: "Public Sans";
+    color: #260E0B;
+    padding-top: 57px;
+    font-size: 32px;
+}
+
+div{
+    margin: 0 52px;
+    
+}
+
+div h2{
+    font-family: "Public Sans";
+    color: #2C100C;
+    padding-top: 107px;
+}
+
+p{
+    font-family: "Public Sans";
+    font-size: 16px;
+    padding-top: 16px;
+}
+
+img{
+    padding-top: 71px;
+}

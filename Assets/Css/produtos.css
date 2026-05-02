@@ -7,3 +7,122 @@
 body{
     background-color: #825D5D;
 }
+
+main h2{
+    margin: 0 auto;
+    text-align: center;
+    font-family: "Public Sans";
+    color: #260E0B;
+    font-size: 24px;
+    padding-top: 90px;
+}
+
+#pesquisa{
+    display: flex;
+    justify-content: center;
+    margin-top: 130px;
+}
+
+input{
+    background: url(../images/icons/lupa-de-pesquisa.svg) no-repeat;
+    background-position: 40px center;
+    padding-left: 22px;
+    background-size: 24px;
+    margin-bottom: 40px;
+    margin: 0 auto;
+    height: 80px;
+    width: 825px;
+    background-color: #673C36;
+    border-radius: 50px;
+    box-shadow: 7px 7px 10px rgba(0, 0, 0, 0.22);
+    border: none;
+}
+
+#pesquisa input::placeholder{
+    font-family: "Public Sans";
+    color: #4A2621;
+    font-size: 16px;
+    padding-left: 65px;
+}
+
+.texto-section{
+    margin: 0 auto;
+    text-align: center;
+    font-family: "Public Sans";
+    color: #260E0B;
+    padding-bottom: 94px;
+}
+.texto-section-1{
+    margin: 0 auto;
+    text-align: center;
+    font-family: "Public Sans";
+    color: #260E0B;
+    padding-bottom: 94px;
+    padding-top: 100px;
+}
+
+#trufas{
+    display: flex;
+    gap: 124px;
+    flex-wrap: wrap;
+    margin: 148px;
+    margin-top: 0;
+    justify-content: center;
+}
+
+#bombons{
+    display: flex;
+    gap: 124px;
+    flex-wrap: wrap;
+    margin: 148px;
+    margin-top: 0;
+    justify-content: center;
+}
+
+#caixas{
+    display: flex;
+    gap: 124px;
+    flex-wrap: wrap;
+    margin: 148px;
+    margin-top: 0;
+    justify-content: center;
+}
+
+.produto{
+    font-family: "Public Sans";
+    color: black;
+    margin-top: 55px;
+    width: 312px;
+}
+
+.foto-produto{
+    width: 312px;
+}
+
+.produto h3{
+    font-size: 16px;
+    font-weight: 400;
+    padding-top: 13px;
+}
+
+.descricao{
+    color: #2C100C;
+    font-size: 10px;
+    padding-top: 9px;
+}
+
+.carrinho{
+    height: 24px;
+    width: 24px;
+    margin-left: 200px;
+    margin-top: 25px;
+}
+
+.preco{
+    margin-bottom: 10px;
+}
+
+.carrinho, .preco{
+    display: inline;
+    
+}

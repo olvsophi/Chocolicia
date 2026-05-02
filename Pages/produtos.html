@@ -6,6 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Produtos | Chocolícia</title>
     <link rel="stylesheet" href="../Assets/css/produtos.css">
+    <link rel="stylesheet" href="../Assets/Css/geral.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
@@ -19,11 +25,11 @@
             </div>
         </section>
 
-        <section id="links-header">
+        <section class="links-header">
             <div>
                 <nav>
                     <a href="../chocolicia.html">Home</a>
-                    <a href="#">Sobre nós</a>
+                    <a href="../Pages/sobre.html">Sobre nós</a>
                     <a href="#">Contato</a>
                 </nav>
             </div>
@@ -31,197 +37,261 @@
     </header>
 
     <main>
-        <h1>
+        <img class="borda" src="../Assets/images/borda-chocolate-derretido.svg" alt="Borda de Chocolate derretido">
+        <h2>
             Aqui você encontra todas as nossas delícias!
-        </h1>
-        <form class="pesquisa">
-            <input type="search" placeholder="Pesquisar...">
-        </form>
+        </h2>
+        <div id="pesquisa">
+            <form>
+                <input type="search" placeholder="Pesquisar...">
+            </form>
+        </div>
     </main>
-    <section>
+
+    <div class="texto-section-1">
         <h2>
             Trufas
         </h2>
-        <img src="../Assets/images/trufa-caramelo-e-flor-de-sal.png" alt="Trufa Caramelo e Flor de sal">
-        <h3>
-            Caramelo Intenso e Flor de Sal
-        </h3>
-        <p>
-            Capa de chocolate 70% cacau recheada com caramelo fluido e toque de manteiga belga.
-        </p>
-        <p>
-            R$13,50
-        </p>
-        <img src="../Assets/images/icons/icone-carrinho.svg" alt="Ícone carrinho">
+    </div>
 
-        <img src="../Assets/images/trufa-caramelo-e-flor-de-sal.png" alt="Trufa Caramelo e Flor de sal">
-        <h3>
-            Caramelo Intenso e Flor de Sal
-        </h3>
-        <p>
-            Capa de chocolate 70% cacau recheada com caramelo fluido e toque de manteiga belga.
-        </p>
-        <p>
-            R$13,50
-        </p>
-        <img src="../Assets/images/icons/icone-carrinho.svg" alt="Ícone carrinho">
-        <img src="../Assets/images/trufa-caramelo-e-flor-de-sal.png" alt="Trufa Caramelo e Flor de sal">
-        <h3>
-            Caramelo Intenso e Flor de Sal
-        </h3>
-        <p>
-            Capa de chocolate 70% cacau recheada com caramelo fluido e toque de manteiga belga.
-        </p>
-        <p>
-            R$13,50
-        </p>
-        <img src="../Assets/images/icons/icone-carrinho.svg" alt="Ícone carrinho">
+    <section id="trufas">
 
-        <img src="../Assets/images/trufa-caramelo-e-flor-de-sal.png" alt="Trufa Caramelo e Flor de sal">
-        <h3>
-            Caramelo Intenso e Flor de Sal
-        </h3>
-        <p>
-            Capa de chocolate 70% cacau recheada com caramelo fluido e toque de manteiga belga.
-        </p>
-        <p>
-            R$13,50
-        </p>
-        <img src="../Assets/images/icons/icone-carrinho.svg" alt="Ícone carrinho">
+        <div class="produto">
+            <img class="foto-produto" src="../Assets/images/trufa-caramelo-e-flor-de-sal.png" alt="Trufa Caramelo e Flor de sal">
+            <h3>
+                Caramelo Intenso e Flor de Sal
+            </h3>
+            <p class="descricao">
+                Capa de chocolate 70% cacau recheada com caramelo fluido e toque de manteiga belga.
+            </p>
+            <p class="preco">
+                R$13,50
+            </p>
+            <img class="carrinho" src="../Assets/images/icons/icone-carrinho.svg" alt="Ícone carrinho">
+        </div>
 
-        <img src="../Assets/images/trufa-caramelo-e-flor-de-sal.png" alt="Trufa Caramelo e Flor de sal">
-        <h3>
-            Caramelo Intenso e Flor de Sal
-        </h3>
-        <p>
-            Capa de chocolate 70% cacau recheada com caramelo fluido e toque de manteiga belga.
-        </p>
-        <p>
-            R$13,50
-        </p>
-        <img src="../Assets/images/icons/icone-carrinho.svg" alt="Ícone carrinho">
+        <div class="produto">
+            <img class="foto-produto" src="../Assets/images/trufa-de-baunilha.png" alt="Trufa Pérola de Baunilha">
+            <h3>
+                Pérola de Baunilha
+            </h3>
+            <p class="descricao">
+                Fudge aveludado de chocolate branco com coco tostado e favas de baunilha, protegido por chocolate ao
+                leite.
+            </p>
+            <p class="preco">
+                R$ 9,90
+            </p>
+            <img class="carrinho" src="../Assets/images/icons/icone-carrinho.svg" alt="Ícone carrinho">
+        </div>
 
-        <img src="../Assets/images/trufa-caramelo-e-flor-de-sal.png" alt="Trufa Caramelo e Flor de sal">
-        <h3>
-            Caramelo Intenso e Flor de Sal
-        </h3>
-        <p>
-            Capa de chocolate 70% cacau recheada com caramelo fluido e toque de manteiga belga.
-        </p>
-        <p>
-            R$13,50
-        </p>
-        <img src="../Assets/images/icons/icone-carrinho.svg" alt="Ícone carrinho">
+        <div class="produto">
+            <img class="foto-produto" src="../Assets/images/trufa-de-pistache-e-matcha.png"
+                alt="Trufa Pistache e Matchá">
+            <h3>
+                Pistache e Matchá
+            </h3>
+            <p class="descricao">
+                Chocolate 70% cacau recheado com ganache de pistache iraniano e matchá, criando um sabor herbal e
+                sofisticado.
+            </p>
+            <p class="preco">
+                R$ 16,50
+            </p>
+            <img class="carrinho" src="../Assets/images/icons/icone-carrinho.svg" alt="Ícone carrinho">
+        </div>
+
+        <div class="produto">
+            <img class="foto-produto" src="../Assets/images/trufa-esfera-de-nozes.png" alt="Trufa Esfera de Nozes">
+            <h3>
+                Esfera de Nozes
+            </h3>
+            <p class="descricao">
+                Esfera de chocolate 55% cacau com brilho espelhado e recheio cremoso de nozes chilenas picadas e
+                chocolate
+            </p>
+            <p class="preco">
+                R$ 11,00
+            </p>
+            <img class="carrinho" src="../Assets/images/icons/icone-carrinho.svg" alt="Ícone carrinho">
+        </div>
+
+        <div class="produto">
+            <img class="foto-produto" src="../Assets/images/bombom-de-cereja-2.png" alt="Trufa Licor de Cereja e Cacau">
+            <h3>
+                Licor de Cereja e Cacau
+            </h3>
+            <p class="descricao">
+                Casca robusta de chocolate 50% cacau escondendo uma cereja marasquino inteira imersa em licor fino
+                artesanal.
+            </p>
+            <p class="preco">
+                R$ 11,50
+            </p>
+            <img class="carrinho" src="../Assets/images/icons/icone-carrinho.svg" alt="Ícone carrinho">
+        </div>
+
+        <div class="produto">
+            <img class="foto-produto" src="../Assets/images/trufa-mix-de-frutas.png" alt="Trufa Tropical Mix: Frutas">
+            <h3>
+                Tropical Mix: Frutas
+            </h3>
+            <p class="descricao">
+                Blend de frutas frescas (morango, manga e banana) sobre base crocante, envolto em chocolate ao leite
+                cremoso.
+            </p>
+            <p class="preco">
+                R$ 15,00
+            </p>
+            <img class="carrinho" src="../Assets/images/icons/icone-carrinho.svg" alt="Ícone carrinho">
+        </div>
     </section>
-    <section>
+
+    <div class="texto-section">
         <h2>
-            Trufas
+            Bombons
         </h2>
-        <img src="../Assets/images/trufa-caramelo-e-flor-de-sal.png" alt="Trufa Caramelo e Flor de sal">
-        <h3>
-            Caramelo Intenso e Flor de Sal
-        </h3>
-        <p>
-            Capa de chocolate 70% cacau recheada com caramelo fluido e toque de manteiga belga.
-        </p>
-        <p>
-            R$13,50
-        </p>
-        <img src="../Assets/images/icons/icone-carrinho.svg" alt="Ícone carrinho">
+    </div>
+    <section id="bombons">
+        <div class="produto">
+            <img class="foto-produto" src="../Assets/images/bombom-de-castanha-2.png" alt="Bombom de Avelã">
+            <h3>
+                Bombom de Avelã
+            </h3>
+            <p class="descricao">
+                Chocolate intenso 70% cacau com recheio de praliné aveludado e uma avelã inteira torrada para máxima crocância. 
+            </p>
+            <p class="preco">
+                R$ 9,50 
+            </p>
+            <img class="carrinho" src="../Assets/images/icons/icone-carrinho.svg" alt="Ícone carrinho">
+        </div>
 
-        <img src="../Assets/images/trufa-caramelo-e-flor-de-sal.png" alt="Trufa Caramelo e Flor de sal">
-        <h3>
-            Caramelo Intenso e Flor de Sal
-        </h3>
-        <p>
-            Capa de chocolate 70% cacau recheada com caramelo fluido e toque de manteiga belga.
-        </p>
-        <p>
-            R$13,50
-        </p>
-        <img src="../Assets/images/icons/icone-carrinho.svg" alt="Ícone carrinho">
+        <div class="produto">
+            <img class="foto-produto" src="../Assets/images/bombom-de-morango-2.png" alt="Bombom de Morango">
+            <h3>
+                Bombom de Morango
+            </h3>
+            <p class="descricao">
+                Blend de frutas frescas (morango, manga e banana) sobre base crocante, envolto em chocolate ao leite
+                cremoso.
+            </p>
+            <p class="preco">
+                R$ 15,00
+            </p>
+            <img class="carrinho" src="../Assets/images/icons/icone-carrinho.svg" alt="Ícone carrinho">
+        </div>
 
-        <img src="../Assets/images/trufa-caramelo-e-flor-de-sal.png" alt="Trufa Caramelo e Flor de sal">
-        <h3>
-            Caramelo Intenso e Flor de Sal
-        </h3>
-        <p>
-            Capa de chocolate 70% cacau recheada com caramelo fluido e toque de manteiga belga.
-        </p>
-        <p>
-            R$13,50
-        </p>
-        <img src="../Assets/images/icons/icone-carrinho.svg" alt="Ícone carrinho">
+        <div class="produto">
+            <img class="foto-produto" src="../Assets/images/bombom-selecionados.png" alt="Bombons Selecionados">
+            <h3>
+                Seleção do Chef
+            </h3>
+            <p class="descricao">
+                Saboreie 6 bombons artesanais enrolados à mão com mix de texturas, cacau em pó e castanhas. Recheios de ganache infusionada.
+            </p>
+            <p class="preco">
+                R$68,00 
+            </p>
+            <img class="carrinho" src="../Assets/images/icons/icone-carrinho.svg" alt="Ícone carrinho">
+        </div>
 
-        <img src="../Assets/images/trufa-caramelo-e-flor-de-sal.png" alt="Trufa Caramelo e Flor de sal">
-        <h3>
-            Caramelo Intenso e Flor de Sal
-        </h3>
-        <p>
-            Capa de chocolate 70% cacau recheada com caramelo fluido e toque de manteiga belga.
-        </p>
-        <p>
-            R$13,50
-        </p>
-        <img src="../Assets/images/icons/icone-carrinho.svg" alt="Ícone carrinho">
+        <div class="produto">
+            <img class="foto-produto" src="../Assets/images/eclat-de-caramelo.png" alt="Éclat de Caramelo & Ouro">
+            <h3>
+                Éclat de Caramelo & Ouro
+            </h3>
+            <p class="descricao">
+                Capa de chocolate 70% cacau recheada com caramelo fluido e toque de manteiga belga. Finalizado com pó de ouro rose.
+            </p>
+            <p class="preco">
+                R$13,50
+            </p>
+            <img class="carrinho" src="../Assets/images/icons/icone-carrinho.svg" alt="Ícone carrinho">
+        </div>
 
-        <img src="../Assets/images/trufa-caramelo-e-flor-de-sal.png" alt="Trufa Caramelo e Flor de sal">
-        <h3>
-            Caramelo Intenso e Flor de Sal
-        </h3>
-        <p>
-            Capa de chocolate 70% cacau recheada com caramelo fluido e toque de manteiga belga.
-        </p>
-        <p>
-            R$13,50
-        </p>
-        <img src="../Assets/images/icons/icone-carrinho.svg" alt="Ícone carrinho">
+        <div class="produto">
+            <img class="foto-produto" src="../Assets/images/trufa-peanut-butter.png" alt="Bombom Peanut Butter">
+            <h3>
+                Peanut Butter
+            </h3>
+            <p class="descricao">
+                Combinação irresistível de chocolate ao leite 40% com interior cremoso de manteiga de amendoim e leve flor de sal.
+            </p>
+            <p class="preco">
+                R$ 10,90
+            </p>
+            <img class="carrinho" src="../Assets/images/icons/icone-carrinho.svg" alt="Ícone carrinho">
+        </div>
+
+        <div class="produto">
+            <img class="foto-produto" src="../Assets/images/bombom-nutella.png" alt="Bombom de Nutella">
+            <h3>
+                Bombom Nutella
+            </h3>
+            <p class="descricao">
+                Casca crocante de chocolate ao leite recheada com o autêntico creme de avelã e cacau. Uma explosão de cremosidade que derrete na boca.
+            </p>
+            <p class="preco">
+                R$ 10,50
+            </p>
+            <img class="carrinho" src="../Assets/images/icons/icone-carrinho.svg" alt="Ícone carrinho">
+        </div>
     </section>
-    <section>
+
+    <div class="texto-section">
         <h2>
-            Trufas
+            Presenteie
         </h2>
-        <img src="../Assets/images/trufa-caramelo-e-flor-de-sal.png" alt="Trufa Caramelo e Flor de sal">
-        <h3>
-            Caramelo Intenso e Flor de Sal
-        </h3>
-        <p>
-            Capa de chocolate 70% cacau recheada com caramelo fluido e toque de manteiga belga.
-        </p>
-        <p>
-            R$13,50
-        </p>
-        <img src="../Assets/images/icons/icone-carrinho.svg" alt="Ícone carrinho">
+    </div>
+    <section id="caixas">
+       <div class="produto">
+            <img class="foto-produto" src="../Assets/images/colecao-ouro.png" alt="Coleção Ouro">
+            <h3>
+                Coleção Ouro
+            </h3>
+            <p class="descricao">
+                Seleção especial de 10 unidades. Dualidade entre chocolate branco e 70% cacau com pó de ouro. Recheios finos de champagne e trufa de café.
+            </p>
+            <p class="preco">
+                R$98,00
+            </p>
+            <img class="carrinho" src="../Assets/images/icons/icone-carrinho.svg" alt="Ícone carrinho">
+        </div>
 
-        <img src="../Assets/images/trufa-caramelo-e-flor-de-sal.png" alt="Trufa Caramelo e Flor de sal">
-        <h3>
-            Caramelo Intenso e Flor de Sal
-        </h3>
-        <p>
-            Capa de chocolate 70% cacau recheada com caramelo fluido e toque de manteiga belga.
-        </p>
-        <p>
-            R$13,50
-        </p>
-        <img src="../Assets/images/icons/icone-carrinho.svg" alt="Ícone carrinho">
+        <div class="produto">
+            <img class="foto-produto" src="../Assets/images/caixa-signature.png" alt="Caixa de bombom Signature">
+            <h3>
+                Signature
+            </h3>
+            <p class="descricao">
+                Nossa caixa de luxo com 25 unidades variadas. Uma jornada completa por diferentes intensidades e sabores.
+            </p>
+            <p class="preco">
+                R$189,00
+            </p>
+            <img class="carrinho" src="../Assets/images/icons/icone-carrinho.svg" alt="Ícone carrinho">
+        </div>
 
-        <img src="../Assets/images/trufa-caramelo-e-flor-de-sal.png" alt="Trufa Caramelo e Flor de sal">
-        <h3>
-            Caramelo Intenso e Flor de Sal
-        </h3>
-        <p>
-            Capa de chocolate 70% cacau recheada com caramelo fluido e toque de manteiga belga.
-        </p>
-        <p>
-            R$13,50
-        </p>
-        <img src="../Assets/images/icons/icone-carrinho.svg" alt="Ícone carrinho">
+        <div class="produto">
+            <img class="foto-produto" src="../Assets/images/caixa-petit-gourmet.png" alt="Caixa Petit Gourmet">
+            <h3>
+                Petit Gourmet
+            </h3>
+            <p class="descricao">
+                Seleção curada com nossos 6 sabores mais vendidos. A opção perfeita para um presente rápido e sofisticado.
+            </p>
+            <p class="preco">
+                R$59,90
+            </p>
+            <img class="carrinho" src="../Assets/images/icons/icone-carrinho.svg" alt="Ícone carrinho">
+        </div>
     </section>
-
+    
     <footer>
-        <img src="./Assets/images/chocolicia-logo-2.svg" alt="Logomarca Chocolícia">
+        <img src="../Assets/images/chocolicia-logo-2.svg" alt="Logomarca Chocolícia">
         <p>
-            Chocolícia &copy; Todos os direitos reservados
+        Chocolícia &copy; Todos os direitos reservados
         </p>
     </footer>
 </body>
