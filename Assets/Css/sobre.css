@@ -19,21 +19,21 @@ main h2{
 
 div{
     margin: 0 52px;
-    
+    margin-bottom: 50px;
 }
 
 div h2{
     font-family: "Public Sans";
     color: #2C100C;
-    padding-top: 107px;
+    padding-top: 80px;
 }
 
-p{
+section p{
     font-family: "Public Sans";
     font-size: 16px;
     padding-top: 16px;
 }
 
-img{
+section img{
     padding-top: 71px;
 }
