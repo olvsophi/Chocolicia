@@ -26,7 +26,7 @@ main h2{
 input{
     background: url(../images/icons/lupa-de-pesquisa.svg) no-repeat;
     background-position: 40px center;
-    padding-left: 22px;
+    padding: 0 80px;
     background-size: 24px;
     margin-bottom: 40px;
     margin: 0 auto;
@@ -36,13 +36,15 @@ input{
     border-radius: 50px;
     box-shadow: 7px 7px 10px rgba(0, 0, 0, 0.22);
     border: none;
+    color: #260E0B;
+    font-size: 16px;
+    font-family: "Public Sans";
 }
 
 #pesquisa input::placeholder{
     font-family: "Public Sans";
     color: #4A2621;
     font-size: 16px;
-    padding-left: 65px;
 }
 
 .texto-section{
